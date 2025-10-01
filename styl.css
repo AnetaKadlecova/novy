@@ -1,0 +1,86 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffe6f0;
+  color: #5a3d4d;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ffb6c1;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  background-color: #fcd5ce;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+nav ul li a {
+  color: #7a4e58;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #f8c2cd;
+}
+
+section {
+  padding: 30px 20px;
+}
+
+article {
+  background: #fff0f5;
+  padding: 25px;
+  border: 2px solid #f8c2cd;
+  border-radius: 10px;
+  margin: auto;
+  max-width: 750px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+table, th, td {
+  border: 1px solid #e6a4b4;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+}
+
+footer {
+  background-color: #d291bc;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
